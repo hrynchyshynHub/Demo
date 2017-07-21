@@ -14,6 +14,5 @@ public interface UserRepository {
     boolean addUser(User u);
     List<User> findAll();
     void addPostToUser(Post p, User u);
-    User findUserWithPosts(String username);
     List<Post> findUserPosts(int userId);
 }

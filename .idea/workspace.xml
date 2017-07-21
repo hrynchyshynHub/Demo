@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3c116e-b368-4274-97d6-4d94769d37b6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eleks/repository/MyProperties.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/logs.txt" afterPath="$PROJECT_DIR$/log/logs.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryForDBImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryForDBImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,20 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserRepositoryForDBImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserRepositoryForDBImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryForDBImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3344">
-              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="227">
+              <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1500637013659" expanded="true" signature="625:653" ph="SELECT * FRO... public." />
-                <marker date="1500637013659" expanded="true" signature="625:674" ph="SELECT * FRO... User" />
-                <marker date="1500637013659" expanded="true" signature="722:783" ph="INSERT INTO PUBLIC.\&quot;User\&quot;... " />
-                <marker date="1500637013659" expanded="true" signature="835:864" ph="SELECT * FRO... User" />
-                <marker date="1500637013659" expanded="true" signature="912:974" ph="INSERT INTO PUBLIC.\&quot;Post\&quot;... " />
-                <marker date="1500637013659" expanded="true" signature="1029:1076" ph="SELECT * FRO... Post" />
-                <marker date="1500637013659" expanded="true" signature="1133:1234" ph="SELECT * FRO... User" />
+                <marker date="1500640475434" expanded="true" signature="623:637" ph="SELECT * FRO... " />
+                <marker date="1500640475434" expanded="true" signature="623:651" ph="SELECT * FRO... public." />
+                <marker date="1500640475434" expanded="true" signature="623:673" ph="SELECT * FRO... User" />
+                <marker date="1500640475434" expanded="true" signature="721:782" ph="INSERT INTO PUBLIC.\&quot;User\&quot;... " />
+                <marker date="1500640475434" expanded="true" signature="834:863" ph="SELECT * FRO... User" />
+                <marker date="1500640475434" expanded="true" signature="911:973" ph="INSERT INTO PUBLIC.\&quot;Post\&quot;... " />
+                <marker date="1500640475434" expanded="true" signature="1028:1075" ph="SELECT * FRO... Post" />
+                <marker date="1500640475434" expanded="true" signature="1132:1233" ph="SELECT * FRO... User" />
               </folding>
             </state>
           </provider>
@@ -82,11 +84,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="UserRepositoryImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="539">
+              <caret line="83" column="5" lean-forward="false" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,18 +137,8 @@
       <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="85">
+              <caret line="38" column="44" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -166,6 +168,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryForDBImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryImpl.java" />
       </list>
     </option>
   </component>
@@ -1052,7 +1055,7 @@
       <updated>1500537742484</updated>
       <workItem from="1500537748034" duration="5837000" />
       <workItem from="1500574211119" duration="270000" />
-      <workItem from="1500622877823" duration="8899000" />
+      <workItem from="1500622877823" duration="10270000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1500636876516</created>
@@ -1061,15 +1064,22 @@
       <option name="project" value="LOCAL" />
       <updated>1500636876516</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1500637047809</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1500637047809</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15006000" />
+    <option name="totallyTimeSpent" value="16377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1087,16 +1097,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6135553" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28281623" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3770883" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1116,6 +1126,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactro" />
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
@@ -1174,10 +1185,8 @@
             <element signature="imports" expanded="false" />
             <element signature="e#2010#2011#0" expanded="false" />
             <element signature="e#2044#2045#0" expanded="false" />
-            <element signature="e#2304#2305#0" expanded="false" />
-            <element signature="e#2331#2332#0" expanded="false" />
-            <element signature="e#2396#2397#0" expanded="false" />
-            <element signature="e#2423#2424#0" expanded="false" />
+            <element signature="e#2300#2301#0" expanded="false" />
+            <element signature="e#2327#2328#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1196,13 +1205,14 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1500637013659" expanded="true" signature="625:653" ph="SELECT * FRO... public." />
-            <marker date="1500637013659" expanded="true" signature="625:674" ph="SELECT * FRO... User" />
-            <marker date="1500637013659" expanded="true" signature="722:783" ph="INSERT INTO PUBLIC.\&quot;User\&quot;... " />
-            <marker date="1500637013659" expanded="true" signature="835:864" ph="SELECT * FRO... User" />
-            <marker date="1500637013659" expanded="true" signature="912:974" ph="INSERT INTO PUBLIC.\&quot;Post\&quot;... " />
-            <marker date="1500637013659" expanded="true" signature="1029:1076" ph="SELECT * FRO... Post" />
-            <marker date="1500637013659" expanded="true" signature="1133:1234" ph="SELECT * FRO... User" />
+            <marker date="1500640475434" expanded="true" signature="623:637" ph="SELECT * FRO... " />
+            <marker date="1500640475434" expanded="true" signature="623:651" ph="SELECT * FRO... public." />
+            <marker date="1500640475434" expanded="true" signature="623:673" ph="SELECT * FRO... User" />
+            <marker date="1500640475434" expanded="true" signature="721:782" ph="INSERT INTO PUBLIC.\&quot;User\&quot;... " />
+            <marker date="1500640475434" expanded="true" signature="834:863" ph="SELECT * FRO... User" />
+            <marker date="1500640475434" expanded="true" signature="911:973" ph="INSERT INTO PUBLIC.\&quot;Post\&quot;... " />
+            <marker date="1500640475434" expanded="true" signature="1028:1075" ph="SELECT * FRO... Post" />
+            <marker date="1500640475434" expanded="true" signature="1132:1233" ph="SELECT * FRO... User" />
           </folding>
         </state>
       </provider>
@@ -1283,10 +1293,8 @@
             <element signature="imports" expanded="false" />
             <element signature="e#2010#2011#0" expanded="false" />
             <element signature="e#2044#2045#0" expanded="false" />
-            <element signature="e#2304#2305#0" expanded="false" />
-            <element signature="e#2331#2332#0" expanded="false" />
-            <element signature="e#2396#2397#0" expanded="false" />
-            <element signature="e#2423#2424#0" expanded="false" />
+            <element signature="e#2300#2301#0" expanded="false" />
+            <element signature="e#2327#2328#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1305,13 +1313,14 @@
           <caret line="101" column="35" lean-forward="false" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1500637013659" expanded="true" signature="625:653" ph="SELECT * FRO... public." />
-            <marker date="1500637013659" expanded="true" signature="625:674" ph="SELECT * FRO... User" />
-            <marker date="1500637013659" expanded="true" signature="722:783" ph="INSERT INTO PUBLIC.\&quot;User\&quot;... " />
-            <marker date="1500637013659" expanded="true" signature="835:864" ph="SELECT * FRO... User" />
-            <marker date="1500637013659" expanded="true" signature="912:974" ph="INSERT INTO PUBLIC.\&quot;Post\&quot;... " />
-            <marker date="1500637013659" expanded="true" signature="1029:1076" ph="SELECT * FRO... Post" />
-            <marker date="1500637013659" expanded="true" signature="1133:1234" ph="SELECT * FRO... User" />
+            <marker date="1500640475434" expanded="true" signature="623:637" ph="SELECT * FRO... " />
+            <marker date="1500640475434" expanded="true" signature="623:651" ph="SELECT * FRO... public." />
+            <marker date="1500640475434" expanded="true" signature="623:673" ph="SELECT * FRO... User" />
+            <marker date="1500640475434" expanded="true" signature="721:782" ph="INSERT INTO PUBLIC.\&quot;User\&quot;... " />
+            <marker date="1500640475434" expanded="true" signature="834:863" ph="SELECT * FRO... User" />
+            <marker date="1500640475434" expanded="true" signature="911:973" ph="INSERT INTO PUBLIC.\&quot;Post\&quot;... " />
+            <marker date="1500640475434" expanded="true" signature="1028:1075" ph="SELECT * FRO... Post" />
+            <marker date="1500640475434" expanded="true" signature="1132:1233" ph="SELECT * FRO... User" />
           </folding>
         </state>
       </provider>
@@ -1356,22 +1365,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2010#2011#0" expanded="false" />
-            <element signature="e#2044#2045#0" expanded="false" />
-            <element signature="e#2304#2305#0" expanded="false" />
-            <element signature="e#2331#2332#0" expanded="false" />
-            <element signature="e#2396#2397#0" expanded="false" />
-            <element signature="e#2423#2424#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/repository/MyProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1489,14 +1482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-392">
@@ -1505,28 +1490,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="38" column="44" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryForDBImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3344">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="227">
+          <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1500637013659" expanded="true" signature="625:653" ph="SELECT * FRO... public." />
-            <marker date="1500637013659" expanded="true" signature="625:674" ph="SELECT * FRO... User" />
-            <marker date="1500637013659" expanded="true" signature="722:783" ph="INSERT INTO PUBLIC.\&quot;User\&quot;... " />
-            <marker date="1500637013659" expanded="true" signature="835:864" ph="SELECT * FRO... User" />
-            <marker date="1500637013659" expanded="true" signature="912:974" ph="INSERT INTO PUBLIC.\&quot;Post\&quot;... " />
-            <marker date="1500637013659" expanded="true" signature="1029:1076" ph="SELECT * FRO... Post" />
-            <marker date="1500637013659" expanded="true" signature="1133:1234" ph="SELECT * FRO... User" />
+            <marker date="1500640475434" expanded="true" signature="623:637" ph="SELECT * FRO... " />
+            <marker date="1500640475434" expanded="true" signature="623:651" ph="SELECT * FRO... public." />
+            <marker date="1500640475434" expanded="true" signature="623:673" ph="SELECT * FRO... User" />
+            <marker date="1500640475434" expanded="true" signature="721:782" ph="INSERT INTO PUBLIC.\&quot;User\&quot;... " />
+            <marker date="1500640475434" expanded="true" signature="834:863" ph="SELECT * FRO... User" />
+            <marker date="1500640475434" expanded="true" signature="911:973" ph="INSERT INTO PUBLIC.\&quot;Post\&quot;... " />
+            <marker date="1500640475434" expanded="true" signature="1028:1075" ph="SELECT * FRO... Post" />
+            <marker date="1500640475434" expanded="true" signature="1132:1233" ph="SELECT * FRO... User" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="83" column="5" lean-forward="false" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

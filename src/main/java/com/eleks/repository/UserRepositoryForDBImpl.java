@@ -20,15 +20,12 @@ public class UserRepositoryForDBImpl implements UserRepository{
 
     private static final Logger logger = LoggerFactory.getLogger(UserRepositoryForDBImpl.class);
 
-
-
-    private static String selectUserByNameQuery = "SELECT *  FROM public.\"User\" WHERE username = ?";
+    private static String selectUserByNameQuery = "SELECT *  FROM public.\"User\" WHERE username  = ?";
     private static String insertUserQuery = "INSERT INTO public.\"User\"(username , password) VALUES (?,?)";
     private static String selectAllUsersQuery = "SELECT * FROM public.\"User\"";
     private static String insertPostQuery = "INSERT INTO public.\"Post\"(description, user_id) VALUES (?,?)";
     private static String selectPostForUserQuery = "SELECT * FROM public.\"Post\" WHERE user_id = ? ";
     private static String selectUserWithPostQuery = "SELECT *  FROM public.\"User\" u LEFT JOIN public.\"Post\" p ON u.id = p.user_id WHERE u.username = ?";
-
 
     private String dbUrl;
     private String username;
@@ -37,8 +34,6 @@ public class UserRepositoryForDBImpl implements UserRepository{
     private Jdbc3PoolingDataSource dataSource;
 
     private static UserRepositoryForDBImpl userRepositoryForDB;
-
-
 
     private UserRepositoryForDBImpl(){
         InputStream is = null;
@@ -167,33 +162,6 @@ public class UserRepositoryForDBImpl implements UserRepository{
             logger.info("no connection" + e);
         }
         return posts;
-    }
-
-    public User findUserWithPosts(String username){
-        User user = new User();
-        List<Post> posts = new ArrayList<>();
-        try(Connection connection = dataSource.getConnection(); PreparedStatement statement = connection.prepareStatement(selectUserWithPostQuery)){
-            statement.setString(1, username);
-            System.out.println(statement.toString());
-            ResultSet rs = statement.executeQuery();
-            int dbuserid = rs.getInt("id");
-            String dbusername = rs.getString("username");
-            String dbpassword = rs.getString("password");
-
-            while (rs.next()) {
-                Post post = new Post(rs.getString("description"));
-                posts.add(post);
-            }
-            rs.close();
-            user.setUsername(dbusername);
-            user.setPassword(dbpassword);
-            user.setId(dbuserid);
-            user.setPosts(posts);
-
-        }catch (Exception e){
-            logger.info("Error during connected to database " + e );
-        }
-        return user;
     }
 
 }

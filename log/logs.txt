@@ -60,3 +60,6 @@
 2017-07-21 14:29:57 INFO  StatisticFilter:47 - Statistic for:2017-07-21T14:29:57.284
 2017-07-21 14:29:57 INFO  StatisticFilter:49 - url: /login was visited 2
 2017-07-21 14:29:57 INFO  StatisticFilter:49 - url: /register was visited 1
+2017-07-21 15:34:34 INFO  StatisticFilter:47 - Statistic for:2017-07-21T15:34:34.233
+2017-07-21 15:34:34 INFO  StatisticFilter:49 - url: /login was visited 1
+2017-07-21 15:34:34 INFO  StatisticFilter:49 - url: /addPostToUser was visited 4

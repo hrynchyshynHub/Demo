@@ -82,12 +82,6 @@ public class UserRepositoryImpl implements UserRepository {
         list.add(p);
         u.setPosts(list);
     }
-
-    @Override
-    public User findUserWithPosts(String username) {
-        return null;
-    }
-
     @Override
     public List<Post> findUserPosts(int userId) {
         return null;
