@@ -31,7 +31,6 @@ public class UserRepositoryForDBImpl implements UserRepository{
 
 
     private String dbUrl;
-    private String dbClass;
     private String username;
     private String password;
     private Properties properties;
@@ -48,7 +47,6 @@ public class UserRepositoryForDBImpl implements UserRepository{
         try {
             properties.load(getClass().getClassLoader().getResourceAsStream(filename));
             dbUrl = properties.getProperty("db.url");
-            dbClass = properties.getProperty("db.driver");
             username = properties.getProperty("db.username");
             password = properties.getProperty("db.password");
 
@@ -198,23 +196,4 @@ public class UserRepositoryForDBImpl implements UserRepository{
         return user;
     }
 
-    private Connection getDbConection() throws Exception{
-        Connection connection = null;
-        try {
-             Class.forName(dbClass);
-             connection = DriverManager.getConnection(dbUrl,this.username,this.password);
-        } catch (SQLException e){
-            logger.info("Error during connected to database " + e );
-        }
-        if(connection != null) {
-            return connection;
-        }else throw new Exception();
-    }
-
-
-
-    @Override
-    public void deleteUserByName(String usermame) {
-
-    }
 }

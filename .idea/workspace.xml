@@ -2,80 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3c116e-b368-4274-97d6-4d94769d37b6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/1252b82c-19fe-4cff-bb50-8c3227452e43/_metadata_/metadata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/1252b82c-19fe-4cff-bb50-8c3227452e43/_metadata_/metadata.keystream" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/1252b82c-19fe-4cff-bb50-8c3227452e43/_metadata_/metadata.keystream.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/1252b82c-19fe-4cff-bb50-8c3227452e43/_metadata_/metadata.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/1252b82c-19fe-4cff-bb50-8c3227452e43/_metadata_/metadata_i" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/1252b82c-19fe-4cff-bb50-8c3227452e43/_metadata_/metadata_i.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Demo_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Demo_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/1252b82c-19fe-4cff-bb50-8c3227452e43.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/1252b82c-19fe-4cff-bb50-8c3227452e43/storage.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javaee_javaee_api_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_web_api_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_3_0_alpha_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_4_1212.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_5_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Demo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/logs.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/log/logs.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/controller/LogInServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/controller/RegisterServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/controller/UserServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/controller/WelocmeServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/filter/AuthorizationFiltter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/filter/StatisticFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/model/Post.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/repository/MyProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryForDBImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/statistics/UrlCollector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/statistics/UrlObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/createDbSystem/create_tablespace.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/init/V0_0_00_create_tables.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/init/V0_0_01_insert_init_data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/beans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/faillogin.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/userProfile.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/welcome.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/eleks/repository/MyProperties.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryForDBImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryForDBImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -113,32 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserRepositoryForDBImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserRepositoryForDBImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryForDBImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-645">
-              <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+            <state relative-caret-position="-3344">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1500635607204" expanded="true" signature="625:653" ph="SELECT * FRO... public." />
-                <marker date="1500635607204" expanded="true" signature="625:674" ph="SELECT * FRO... User" />
-                <marker date="1500635607204" expanded="true" signature="722:783" ph="INSERT INTO PUBLIC.\&quot;User\&quot;... " />
-                <marker date="1500635607204" expanded="true" signature="835:864" ph="SELECT * FRO... User" />
-                <marker date="1500635607204" expanded="true" signature="912:974" ph="INSERT INTO PUBLIC.\&quot;Post\&quot;... " />
-                <marker date="1500635607204" expanded="true" signature="1029:1076" ph="SELECT * FRO... Post" />
-                <marker date="1500635607204" expanded="true" signature="1133:1234" ph="SELECT * FRO... User" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StatisticFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/filter/StatisticFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1500637013659" expanded="true" signature="625:653" ph="SELECT * FRO... public." />
+                <marker date="1500637013659" expanded="true" signature="625:674" ph="SELECT * FRO... User" />
+                <marker date="1500637013659" expanded="true" signature="722:783" ph="INSERT INTO PUBLIC.\&quot;User\&quot;... " />
+                <marker date="1500637013659" expanded="true" signature="835:864" ph="SELECT * FRO... User" />
+                <marker date="1500637013659" expanded="true" signature="912:974" ph="INSERT INTO PUBLIC.\&quot;Post\&quot;... " />
+                <marker date="1500637013659" expanded="true" signature="1029:1076" ph="SELECT * FRO... Post" />
+                <marker date="1500637013659" expanded="true" signature="1133:1234" ph="SELECT * FRO... User" />
               </folding>
             </state>
           </provider>
@@ -164,10 +82,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="-392">
               <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
               <folding />
             </state>
@@ -234,9 +162,10 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1252b82c-19fe-4cff-bb50-8c3227452e43/console.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/createDbSystem/create_tablespace.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/init/V0_0_01_insert_init_data.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryForDBImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eleks/service/UserService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryForDBImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepository.java" />
       </list>
     </option>
   </component>
@@ -1123,12 +1052,20 @@
       <updated>1500537742484</updated>
       <workItem from="1500537748034" duration="5837000" />
       <workItem from="1500574211119" duration="270000" />
-      <workItem from="1500622877823" duration="8694000" />
+      <workItem from="1500622877823" duration="8899000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1500636876516</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1500636876516</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14801000" />
+    <option name="totallyTimeSpent" value="15006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -1178,6 +1115,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="4" />
@@ -1213,12 +1154,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#490#491#0" expanded="false" />
-            <element signature="e#520#521#0" expanded="false" />
-            <element signature="e#570#571#0" expanded="false" />
-            <element signature="e#603#604#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1260,13 +1196,13 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1500635607204" expanded="true" signature="625:653" ph="SELECT * FRO... public." />
-            <marker date="1500635607204" expanded="true" signature="625:674" ph="SELECT * FRO... User" />
-            <marker date="1500635607204" expanded="true" signature="722:783" ph="INSERT INTO PUBLIC.\&quot;User\&quot;... " />
-            <marker date="1500635607204" expanded="true" signature="835:864" ph="SELECT * FRO... User" />
-            <marker date="1500635607204" expanded="true" signature="912:974" ph="INSERT INTO PUBLIC.\&quot;Post\&quot;... " />
-            <marker date="1500635607204" expanded="true" signature="1029:1076" ph="SELECT * FRO... Post" />
-            <marker date="1500635607204" expanded="true" signature="1133:1234" ph="SELECT * FRO... User" />
+            <marker date="1500637013659" expanded="true" signature="625:653" ph="SELECT * FRO... public." />
+            <marker date="1500637013659" expanded="true" signature="625:674" ph="SELECT * FRO... User" />
+            <marker date="1500637013659" expanded="true" signature="722:783" ph="INSERT INTO PUBLIC.\&quot;User\&quot;... " />
+            <marker date="1500637013659" expanded="true" signature="835:864" ph="SELECT * FRO... User" />
+            <marker date="1500637013659" expanded="true" signature="912:974" ph="INSERT INTO PUBLIC.\&quot;Post\&quot;... " />
+            <marker date="1500637013659" expanded="true" signature="1029:1076" ph="SELECT * FRO... Post" />
+            <marker date="1500637013659" expanded="true" signature="1133:1234" ph="SELECT * FRO... User" />
           </folding>
         </state>
       </provider>
@@ -1327,12 +1263,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#490#491#0" expanded="false" />
-            <element signature="e#520#521#0" expanded="false" />
-            <element signature="e#570#571#0" expanded="false" />
-            <element signature="e#603#604#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1374,13 +1305,13 @@
           <caret line="101" column="35" lean-forward="false" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1500635607204" expanded="true" signature="625:653" ph="SELECT * FRO... public." />
-            <marker date="1500635607204" expanded="true" signature="625:674" ph="SELECT * FRO... User" />
-            <marker date="1500635607204" expanded="true" signature="722:783" ph="INSERT INTO PUBLIC.\&quot;User\&quot;... " />
-            <marker date="1500635607204" expanded="true" signature="835:864" ph="SELECT * FRO... User" />
-            <marker date="1500635607204" expanded="true" signature="912:974" ph="INSERT INTO PUBLIC.\&quot;Post\&quot;... " />
-            <marker date="1500635607204" expanded="true" signature="1029:1076" ph="SELECT * FRO... Post" />
-            <marker date="1500635607204" expanded="true" signature="1133:1234" ph="SELECT * FRO... User" />
+            <marker date="1500637013659" expanded="true" signature="625:653" ph="SELECT * FRO... public." />
+            <marker date="1500637013659" expanded="true" signature="625:674" ph="SELECT * FRO... User" />
+            <marker date="1500637013659" expanded="true" signature="722:783" ph="INSERT INTO PUBLIC.\&quot;User\&quot;... " />
+            <marker date="1500637013659" expanded="true" signature="835:864" ph="SELECT * FRO... User" />
+            <marker date="1500637013659" expanded="true" signature="912:974" ph="INSERT INTO PUBLIC.\&quot;Post\&quot;... " />
+            <marker date="1500637013659" expanded="true" signature="1029:1076" ph="SELECT * FRO... Post" />
+            <marker date="1500637013659" expanded="true" signature="1133:1234" ph="SELECT * FRO... User" />
           </folding>
         </state>
       </provider>
@@ -1445,24 +1376,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#490#491#0" expanded="false" />
-            <element signature="e#520#521#0" expanded="false" />
-            <element signature="e#570#571#0" expanded="false" />
-            <element signature="e#603#604#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/controller/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/controller/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/controller/RegisterServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1563,23 +1481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryForDBImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-645">
-          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1500635607204" expanded="true" signature="625:653" ph="SELECT * FRO... public." />
-            <marker date="1500635607204" expanded="true" signature="625:674" ph="SELECT * FRO... User" />
-            <marker date="1500635607204" expanded="true" signature="722:783" ph="INSERT INTO PUBLIC.\&quot;User\&quot;... " />
-            <marker date="1500635607204" expanded="true" signature="835:864" ph="SELECT * FRO... User" />
-            <marker date="1500635607204" expanded="true" signature="912:974" ph="INSERT INTO PUBLIC.\&quot;Post\&quot;... " />
-            <marker date="1500635607204" expanded="true" signature="1029:1076" ph="SELECT * FRO... Post" />
-            <marker date="1500635607204" expanded="true" signature="1133:1234" ph="SELECT * FRO... User" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/controller/LogInServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
@@ -1598,9 +1499,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="-392">
           <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eleks/repository/UserRepositoryForDBImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3344">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1500637013659" expanded="true" signature="625:653" ph="SELECT * FRO... public." />
+            <marker date="1500637013659" expanded="true" signature="625:674" ph="SELECT * FRO... User" />
+            <marker date="1500637013659" expanded="true" signature="722:783" ph="INSERT INTO PUBLIC.\&quot;User\&quot;... " />
+            <marker date="1500637013659" expanded="true" signature="835:864" ph="SELECT * FRO... User" />
+            <marker date="1500637013659" expanded="true" signature="912:974" ph="INSERT INTO PUBLIC.\&quot;Post\&quot;... " />
+            <marker date="1500637013659" expanded="true" signature="1029:1076" ph="SELECT * FRO... Post" />
+            <marker date="1500637013659" expanded="true" signature="1133:1234" ph="SELECT * FRO... User" />
+          </folding>
         </state>
       </provider>
     </entry>

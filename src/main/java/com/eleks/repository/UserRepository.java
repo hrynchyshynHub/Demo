@@ -12,7 +12,6 @@ import java.util.List;
 public interface UserRepository {
     User findUserByName(String username) throws Exception;
     boolean addUser(User u);
-    void deleteUserByName(String usermame);
     List<User> findAll();
     void addPostToUser(Post p, User u);
     User findUserWithPosts(String username);
