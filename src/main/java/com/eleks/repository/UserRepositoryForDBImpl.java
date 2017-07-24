@@ -1,10 +1,14 @@
 package com.eleks.repository;
 
+import com.eleks.filter.ResourceDownloader;
 import com.eleks.model.Post;
 import com.eleks.model.User;
 import org.postgresql.jdbc3.Jdbc3PoolingDataSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import javax.inject.Named;
+import javax.inject.Singleton;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
@@ -25,25 +29,24 @@ public class UserRepositoryForDBImpl implements UserRepository{
     private static String selectAllUsersQuery = "SELECT * FROM public.\"User\"";
     private static String insertPostQuery = "INSERT INTO public.\"Post\"(description, user_id) VALUES (?,?)";
     private static String selectPostForUserQuery = "SELECT * FROM public.\"Post\" WHERE user_id = ? ";
-    private static String selectUserWithPostQuery = "SELECT *  FROM public.\"User\" u LEFT JOIN public.\"Post\" p ON u.id = p.user_id WHERE u.username = ?";
 
     private String dbUrl;
     private String username;
     private String password;
-    private Properties properties;
     private Jdbc3PoolingDataSource dataSource;
-
-    private static UserRepositoryForDBImpl userRepositoryForDB;
+    private ResourceDownloader resourceDownloader;
 
     private UserRepositoryForDBImpl(){
         InputStream is = null;
-        properties = new Properties();
-        String filename = "database.properties";
+        resourceDownloader = new ResourceDownloader();
         try {
-            properties.load(getClass().getClassLoader().getResourceAsStream(filename));
-            dbUrl = properties.getProperty("db.url");
-            username = properties.getProperty("db.username");
-            password = properties.getProperty("db.password");
+            Class.forName(resourceDownloader.getResource().get("class"));
+        } catch (ClassNotFoundException e) {
+            logger.info("class for driver not found", e);
+        }
+            dbUrl = resourceDownloader.getResource().get("url");
+            username = resourceDownloader.getResource().get("username");
+            password = resourceDownloader.getResource().get("password");
 
             dataSource = new Jdbc3PoolingDataSource();
             dataSource.setDataSourceName("datasource");
@@ -51,19 +54,6 @@ public class UserRepositoryForDBImpl implements UserRepository{
             dataSource.setUser(username);
             dataSource.setPassword(password);
             dataSource.setMaxConnections(10);
-
-        } catch (IOException e) {
-            logger.info("props not load", e);
-        }
-    }
-
-    public static UserRepositoryForDBImpl getInstance(){
-        if(userRepositoryForDB == null){
-            synchronized (UserRepositoryForDBImpl.class){
-                if(userRepositoryForDB == null) userRepositoryForDB = new UserRepositoryForDBImpl();
-            }
-        }
-        return userRepositoryForDB;
     }
 
 

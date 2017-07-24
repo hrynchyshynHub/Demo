@@ -7,6 +7,8 @@ import com.eleks.repository.UserRepositoryForDBImpl;
 import com.eleks.repository.UserRepositoryImpl;
 import com.eleks.service.UserService;
 
+import javax.inject.Inject;
+import javax.inject.Qualifier;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -20,7 +22,17 @@ import java.io.IOException;
 @WebServlet(name = "UserServlet", urlPatterns = {"/addPostToUser"})
 public class UserServlet extends HttpServlet {
 
-    private UserService userService = new UserService(UserRepositoryForDBImpl.getInstance());
+    //private UserService userService = new UserService(UserRepositoryForDBImpl.getInstance());
+
+    private UserService userService;
+
+    @Inject
+    public UserServlet(UserService userService) {
+        this.userService = userService;
+    }
+
+    public UserServlet() {
+    }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String desc = request.getParameter("postDescription");

@@ -2,6 +2,8 @@ package com.eleks.repository;
 
 import com.eleks.model.Post;
 import com.eleks.model.User;
+
+import javax.enterprise.inject.Vetoed;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
@@ -11,11 +13,10 @@ import java.util.concurrent.CopyOnWriteArrayList;
 /**
  * Created by ivan.hrynchyshyn on 03.07.2017.
  */
-
+@Vetoed
 public class UserRepositoryImpl implements UserRepository {
     private  List<User> users = new CopyOnWriteArrayList<User>();
     private static  UserRepositoryImpl userRepository;
-
 
    private UserRepositoryImpl(){
         User user = new User("Ivan", "1111");

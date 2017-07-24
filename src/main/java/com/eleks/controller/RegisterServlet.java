@@ -6,6 +6,7 @@ import com.eleks.repository.UserRepositoryForDBImpl;
 import com.eleks.repository.UserRepositoryImpl;
 import com.eleks.service.UserService;
 
+import javax.inject.Inject;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -19,9 +20,14 @@ import java.io.IOException;
 @WebServlet(name = "RegisterServlet", urlPatterns = { "/saveUser" })
 public class RegisterServlet extends HttpServlet {
 
+    private UserService userService = new UserService();
 
-    private UserService userService = new UserService(UserRepositoryForDBImpl.getInstance());
+    public RegisterServlet() {
+    }
 
+    public RegisterServlet(UserService userService) {
+        this.userService = userService;
+    }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String username = request.getParameter("username");

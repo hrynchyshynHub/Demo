@@ -3,14 +3,24 @@ package com.eleks.service;
 import com.eleks.model.Post;
 import com.eleks.model.User;
 import com.eleks.repository.UserRepository;
+
+import javax.inject.Inject;
+import javax.inject.Qualifier;
+import javax.inject.Singleton;
 import java.util.List;
 
 /**
  * Created by ivan.hrynchyshyn on 12.07.2017.
  */
-public class UserService {
+public class UserService{
+
+
     private UserRepository userRepository;
 
+    public UserService() {
+    }
+
+    @Inject
     public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }

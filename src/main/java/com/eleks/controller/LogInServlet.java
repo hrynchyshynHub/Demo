@@ -3,6 +3,8 @@ package com.eleks.controller;
 import com.eleks.model.User;
 import com.eleks.repository.UserRepositoryForDBImpl;
 import com.eleks.service.UserService;
+
+import javax.inject.Inject;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,7 +20,15 @@ import java.io.IOException;
 @WebServlet(name = "LogInServlet" , urlPatterns = {"/register","/login"})
 public class LogInServlet extends HttpServlet {
 
-    private UserService userService = new UserService(UserRepositoryForDBImpl.getInstance());
+    private UserService userService = new UserService();
+
+    public LogInServlet() {
+    }
+
+    @Inject
+    public LogInServlet(UserService userService) {
+        this.userService = userService;
+    }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws  IOException, ServletException{
